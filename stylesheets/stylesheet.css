@@ -44,6 +44,25 @@ a:hover {
   text-align: center;
 }
 
+#nav {
+  position: absolute;
+  top: 0;
+}
+
+#nav a {
+  display: inline-block;
+  margin-right:20px;
+  font-size: 15px;
+  opacity: 0.4;
+  padding-top: 14px;
+  color:black;
+}
+
+#nav a.selected{
+  border-top: 2px solid black;
+  opacity: 1.0;
+}
+
 .wordmark {
   color: inherit;
   display: block;
@@ -198,6 +217,7 @@ hr {
   margin: 0 auto;
   min-width: 300px;
   padding: 2rem;
+  padding-top: 4rem;
   width: 100%;
 }
 
