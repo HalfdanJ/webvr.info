@@ -115,7 +115,12 @@ a:hover {
 }
 
 .device-box.open {
-  max-height:200px;
+  max-height:250px;
+}
+
+.device-box > span {
+  margin: 0.5rem 0;
+  display: block;
 }
 
 .device-box > img {
@@ -129,7 +134,7 @@ a:hover {
 
 .device-box-header {
   display: block;
-  padding: 23px 0;
+  padding: 23px 0 6px;
 }
 
 .carrot {
@@ -163,10 +168,6 @@ a:hover {
 
 .devices {
   overflow: auto;
-}
-
-.devices  p {
-  margin: 0.5rem 0;
 }
 
 @media screen and (min-width: 650px) {
