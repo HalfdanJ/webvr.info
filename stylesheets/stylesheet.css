@@ -74,7 +74,7 @@ a:hover {
   color: #fff;
   display: inline-block;
   font-size: 64px;
-  font-size: calc(32px + 1vh + 3vw);  /* Responsive font-size for mobile */
+  font-size: calc(16px + 1vh + 3vw);  /* Responsive font-size for mobile */
   font-style: italic;
   font-weight: 300;
   margin-bottom: 15px;
